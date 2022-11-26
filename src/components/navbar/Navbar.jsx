@@ -2,19 +2,21 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="container-xl flex">
-      <div className="w-24">
+    <div>
+      <div className="container-xl bg-[#00353f] text-white flex items-center justify-between px-3">
         <img
-          src="/public/logo-resize-Martial-Wehrling-Freelance-developpeur-front-End-react-JS.png"
-          alt="logo Freelance developper front end react martial wehrling"
+          className="w-16"
+          src="/logo-resize-Martial-Wehrling-Freelance-developpeur-front-End-react-JS.png"
+          alt="Freelance Front End Developper"
         />
+        <ul className="flex gap-8">
+          <li>A propos</li>
+          <li>Services</li>
+          <li>Porte Folio</li>
+          <li>Contact</li>
+        </ul>
+        <span>3</span>
       </div>
-      <ul>
-        <li>A propos</li>
-        <li>Porte Folio</li>
-        <li>Services</li>
-        <li>Contact</li>
-      </ul>
     </div>
   );
 }

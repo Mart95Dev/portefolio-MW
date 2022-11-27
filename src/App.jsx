@@ -1,9 +1,9 @@
 import Navbar from "./components/navbar/Navbar";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div>
       <Navbar />
       <Home />
     </div>

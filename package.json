@@ -18,7 +18,8 @@
     "react-router-dom": "^6.4.3",
     "react-seo-component": "^2.0.2",
     "react-seo-tools": "^1.0.0",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "vite-plugin-svgr": "^2.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
